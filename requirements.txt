@@ -1,0 +1,29 @@
+# ── Milvus Lite (local, no Docker / server needed) ────────────────────────────
+pymilvus       # installs pymilvus + embedded Milvus in one pip install
+
+# ── Embeddings (local, no API) ────────────────────────────────────────────────
+sentence-transformers
+
+# ── Ollama LLM ────────────────────────────────────────────────────────────────
+requests
+
+# ── Document Processing ───────────────────────────────────────────────────────
+PyPDF2
+python-docx
+python-pptx
+openpyxl
+pandas
+
+# ── UI ────────────────────────────────────────────────────────────────────────
+streamlit
+plotly
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv
+numpy
+loguru
+pydantic
+
+# ── MCP Server ────────────────────────────────────────────────────────────────
+fastapi
+uvicorn
