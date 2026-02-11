@@ -1,14 +1,3 @@
-"""
-ChromaDB Vector Store - Simple, local, cross-platform vector database.
-
-No Docker, no server — data stored in a local directory.
-
-Advanced retrieval features:
-  1. Dense similarity search (cosine)
-  2. Keyword search (metadata filtering)
-  3. Hybrid re-rank (RRF – Reciprocal Rank Fusion)
-  4. MMR (Maximal Marginal Relevance) diversity filter
-"""
 from __future__ import annotations
 
 import json

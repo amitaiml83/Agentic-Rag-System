@@ -1,22 +1,3 @@
-"""
-Agentic RAG Engine  –  LangChain-orchestrated agentic behaviour.
-
-Agent Loop:
-  1. PLAN     – analyse query, decide retrieval strategy
-  2. RETRIEVE – call appropriate tools (dense / hybrid / mmr / keyword)
-  3. ANALYSE  – evaluate if context is sufficient
-  4. REFINE   – optionally decompose and re-retrieve sub-questions
-  5. GENERATE – produce final grounded answer with citations
-  6. REFLECT  – score confidence, flag unsupported claims
-
-LangChain components used:
-  • ChatOllama          – LLM backend
-  • PromptTemplate      – typed, reusable prompt templates
-  • LLMChain            – prompt → LLM → output-parser pipelines
-  • JsonOutputParser    – structured JSON extraction
-  • StrOutputParser     – plain-text extraction
-  • RunnablePassthrough – pass-through for composable chains
-"""
 from __future__ import annotations
 
 import json

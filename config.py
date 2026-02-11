@@ -1,10 +1,4 @@
-"""
-Configuration settings for the Agentic RAG System
-"""
-import os
 
-# ── Milvus Lite (local, no Docker required) ───────────────────────────────────
-# Data is stored in a local file — zero infrastructure needed.
 # ── ChromaDB ──────────────────────────────────────────────────────────────────
 CHROMA_PATH       = os.getenv("CHROMA_PATH", "./data/chroma_db")  # ✅ Changed from MILVUS_URI
 COLLECTION_NAME   = "agentic_rag_v1"

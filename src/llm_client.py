@@ -1,10 +1,3 @@
-"""
-Ollama LLM Client  –  communicates with a local Ollama instance.
-Supports:
-  - chat completions  (streaming + non-streaming)
-  - model listing / availability check
-  - structured JSON output mode
-"""
 from __future__ import annotations
 
 import json

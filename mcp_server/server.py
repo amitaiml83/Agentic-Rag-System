@@ -1,13 +1,3 @@
-"""
-MCP (Model Context Protocol) Server
-Exposes the Agentic RAG system as an MCP-compatible API.
-
-Endpoints:
-  POST /mcp/tools/list         –  list available tools
-  POST /mcp/tools/call         –  invoke a tool
-  GET  /mcp/resources/list     –  list ingested documents
-  GET  /health                 –  health check
-"""
 from __future__ import annotations
 
 import sys

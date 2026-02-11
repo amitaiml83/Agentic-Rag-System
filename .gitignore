@@ -1,4 +1,6 @@
 myenv
 README.md
 __pycache__/
+data/chromadb/
+ 
  

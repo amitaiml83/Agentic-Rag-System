@@ -1,7 +1,4 @@
-"""
-Embedding Manager  –  local SentenceTransformers (default) or Ollama embeddings.
-Provides a unified interface for both options.
-"""
+
 from __future__ import annotations
 
 from typing import List

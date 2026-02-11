@@ -1,13 +1,4 @@
-"""
-Document Processor  –  ingests PDF, DOCX, PPTX, XLSX, TXT
-and returns clean, structured chunks with rich metadata.
 
-Excel aggregation improvements:
-  - Stores per-column numeric stats (min, max, mean, sum, count) in a
-    dedicated "excel_summary" chunk so the agent can answer aggregation
-    queries (total sales, average price, etc.) directly from context.
-  - Also stores a structured JSON stats block that the LLM can parse.
-"""
 from __future__ import annotations
 
 import io
